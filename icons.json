@@ -1,8 +1,8 @@
   [
     {
-      "name": "Safari",
-      "image": "assets/app.png",
-      "download": "https://github.com/enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true"
+      "name": "3D Pinball",
+      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
       "name": "Mail",

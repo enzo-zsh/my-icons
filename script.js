@@ -28,7 +28,7 @@ function displayIcons(icons) {
       <div class="icon-card">
         <img src="${icon.image}" alt="${icon.name} Icon" />
         <h3>${icon.name}</h3>
-        <a href="${icon.download}" target="_blank">Download</a>
+        <a href="${icon.download}" target="_blank">Get</a>
       </div>
     `
     )
@@ -50,9 +50,13 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 
 // Gestion du mode sombre
 const themeToggle = document.getElementById('theme-toggle');
+
+// Appliquer le mode sombre si le système l’utilise par défaut
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.body.classList.add('dark-mode');
 }
+
+// Gérer le basculement entre les modes clair et sombre
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   themeToggle.textContent = document.body.classList.contains('dark-mode')
