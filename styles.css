@@ -61,11 +61,9 @@ header button:hover {
   background-color: #555;
 }
 
-/* Réduction de la taille des cartes uniquement */
 .icon-card {
-  width: 150px; /* Réduit la largeur des cartes */
+  width: 150px; /* Taille compacte des cartes */
   padding: 1rem;
-  margin: auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -74,12 +72,12 @@ header button:hover {
 }
 
 .icon-card h3 {
-  font-size: 1.1rem; /* Taille du titre conservée */
-  color: black;
+  font-size: 1.1rem;
+  color: black; /* Le titre reste noir même en dark mode */
 }
 
 .icon-card img {
-  width: 80px; /* Taille des icônes conservée */
+  width: 80px;
   height: 80px;
   object-fit: contain;
   margin-bottom: 1rem;
@@ -94,7 +92,7 @@ header button:hover {
   border-radius: 15px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem; /* Taille du bouton conservée */
+  font-size: 1rem;
   transition: background-color 0.3s;
 }
 
@@ -108,8 +106,8 @@ header button:hover {
 
 main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajuste la grille */
-  gap: 1rem;
+  grid-template-columns: repeat(6, 1fr); /* 6 cartes par ligne */
+  gap: 0.5rem; /* Réduction de l'espace entre les cartes */
   padding: 1rem;
   width: 90%;
   margin: auto;
@@ -120,5 +118,5 @@ footer {
   margin-top: auto;
   padding: 1rem;
   background-color: #e0e0e0;
-  color: black; /* Le footer reste en noir */
+  color: black; /* Le footer reste noir */
 }
