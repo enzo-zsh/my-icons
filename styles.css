@@ -33,16 +33,6 @@ header {
   padding: 2rem;
 }
 
-header h1 {
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-header p {
-  font-weight: 300;
-  margin-top: 0.5rem;
-}
-
 header input {
   margin-top: 1rem;
   padding: 0.5rem;
@@ -57,11 +47,12 @@ header button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  border: none;
   background-color: #333;
   color: white;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 header button:hover {
@@ -86,14 +77,21 @@ main {
   transition: transform 0.3s ease;
 }
 
-.icon-card:hover {
-  transform: scale(1.05);
-}
-
 .icon-card img {
   width: 80px;
   height: 80px;
+  object-fit: contain;
   margin-bottom: 1rem;
+}
+
+.icon-card a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.icon-card:hover {
+  transform: scale(1.05);
 }
 
 footer {

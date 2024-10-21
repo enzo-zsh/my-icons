@@ -4,6 +4,9 @@ let allIcons = [];
 async function loadIcons() {
   try {
     const response = await fetch('icons.json');
+    if (!response.ok) {
+      throw new Error('Erreur de chargement des icônes');
+    }
     const icons = await response.json();
     allIcons = icons;
     displayIcons(icons);
@@ -12,16 +15,20 @@ async function loadIcons() {
   }
 }
 
-// Afficher les icônes
+// Afficher les icônes dans la galerie
 function displayIcons(icons) {
   const gallery = document.getElementById('icon-gallery');
+  if (icons.length === 0) {
+    gallery.innerHTML = '<p>Aucune icône trouvée.</p>';
+    return;
+  }
   gallery.innerHTML = icons
     .map(
       icon => `
       <div class="icon-card">
         <img src="${icon.image}" alt="${icon.name} Icon" />
         <h3>${icon.name}</h3>
-        <a href="${icon.download}" target="_blank" class="download-btn">Download</a>
+        <a href="${icon.download}" target="_blank">Download</a>
       </div>
     `
     )
@@ -43,13 +50,9 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 
 // Gestion du mode sombre
 const themeToggle = document.getElementById('theme-toggle');
-
-// Appliquer le thème sombre selon les préférences système
 if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
   document.body.classList.add('dark-mode');
 }
-
-// Basculer manuellement le mode sombre
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   themeToggle.textContent = document.body.classList.contains('dark-mode')
