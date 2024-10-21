@@ -1,0 +1,17 @@
+  [
+    {
+      "name": "Safari",
+      "image": "assets/app.png",
+      "download": "https://github.com/enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true"
+    },
+    {
+      "name": "Mail",
+      "image": "assets/app.png",
+      "download": "https://github.com/enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true"
+    },
+    {
+      "name": "Calendar",
+      "image": "assets/app.png",
+      "download": "https://github.com/enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true"
+    }
+  ]
