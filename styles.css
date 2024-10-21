@@ -2,71 +2,73 @@
 
 /* Variables globales */
 :root {
-  --blue-apple: #007aff;
-  --blue-hover: #005ecb;
   --background-light: #f5f5f7;
-  --background-dark: #1c1c1e;
-  --text-light: white;
-  --text-dark: black;
+  --background-dark: #1e1e1e;
+  --text-light: #333;
+  --text-dark: #f5f5f7;
+  --blue-apple: #007aff;
+  --blue-hover: #005bb5;
 }
 
-/* Configuration générale */
-body {
+/* Réinitialisation globale et police */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--background-light);
-  color: var(--text-dark);
-  transition: background-color 0.3s, color 0.3s;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Display', sans-serif;
 }
 
+/* Styles du body */
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Dark mode pour le body */
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+/* Header */
 header {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.2rem;
-  color: gray;
-}
-
-input[type="text"] {
+header input {
+  margin-top: 1rem;
   padding: 0.5rem;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-right: 0.5rem;
+  width: 80%;
+  max-width: 300px;
 }
 
-.switch {
+header button {
+  margin-top: 1rem;
   padding: 0.5rem 1rem;
+  font-size: 1rem;
   background-color: #333;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Grille principale */
-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 6 cartes adaptatives */
-  gap: 1rem; /* Réduire l'espace entre les cartes */
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  justify-items: center; /* Centrer les cartes */
-  align-items: center;
+header button:hover {
+  background-color: #555;
 }
 
 /* Style des cartes */
 .icon-card {
-  width: 100%;
-  max-width: 160px; /* Taille max de la carte */
+  width: 150px; /* Taille compacte des cartes */
   padding: 1rem;
   background-color: white;
   border-radius: 10px;
@@ -77,8 +79,7 @@ main {
 
 .icon-card h3 {
   font-size: 1.1rem;
-  color: black; /* Titre en noir pour le Dark Mode */
-  margin-bottom: 0.5rem;
+  color: black; /* Le titre reste noir même en dark mode */
 }
 
 .icon-card img {
@@ -109,30 +110,21 @@ main {
   transform: scale(1.05);
 }
 
+/* Grille principale */
+main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 cartes par ligne */
+  gap: 0.5rem; /* Réduction de l'espace entre les cartes */
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+}
+
 /* Footer */
 footer {
   text-align: center;
+  margin-top: auto;
   padding: 1rem;
-  font-size: 0.9rem;
-  color: black; /* Footer toujours en noir */
-}
-
-/* Dark Mode */
-.dark-mode {
-  background-color: var(--background-dark);
-  color: var(--text-light);
-}
-
-.dark-mode .icon-card {
-  background-color: #2c2c2e;
-}
-
-.dark-mode input[type="text"] {
-  background-color: #3a3a3c;
-  color: white;
-}
-
-.dark-mode .switch {
-  background-color: #f5f5f7;
-  color: black;
+  background-color: #e0e0e0;
+  color: black; /* Le footer reste noir */
 }
