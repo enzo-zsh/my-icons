@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap');
 
-/* Variables globales */
 :root {
   --background-light: #f5f5f7;
   --background-dark: #1e1e1e;
@@ -10,7 +9,6 @@
   --blue-hover: #005bb5;
 }
 
-/* Réinitialisation globale et police */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +16,6 @@
   font-family: 'SF Pro Display', sans-serif;
 }
 
-/* Styles du body */
 body {
   background-color: var(--background-light);
   color: var(--text-light);
@@ -28,13 +25,11 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-/* Dark mode pour le body */
 body.dark-mode {
   background-color: var(--background-dark);
   color: var(--text-dark);
 }
 
-/* Header */
 header {
   text-align: center;
   padding: 2rem;
@@ -66,7 +61,6 @@ header button:hover {
   background-color: #555;
 }
 
-/* Style des cartes */
 .icon-card {
   width: 150px; /* Taille compacte des cartes */
   padding: 1rem;
@@ -110,7 +104,6 @@ header button:hover {
   transform: scale(1.05);
 }
 
-/* Grille principale */
 main {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 cartes par ligne */
@@ -120,7 +113,6 @@ main {
   margin: auto;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: auto;
