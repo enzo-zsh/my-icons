@@ -1,5 +1,11 @@
-/* Police inspirée d’Apple */
 @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600&display=swap');
+
+:root {
+  --background-light: #f5f5f7;
+  --background-dark: #1e1e1e;
+  --text-light: #333;
+  --text-dark: #f5f5f7;
+}
 
 * {
   margin: 0;
@@ -9,11 +15,17 @@
 }
 
 body {
-  background-color: #f5f5f7;
-  color: #333;
+  background-color: var(--background-light);
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
 }
 
 header {
@@ -29,6 +41,31 @@ header h1 {
 header p {
   font-weight: 300;
   margin-top: 0.5rem;
+}
+
+header input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+}
+
+header button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #555;
 }
 
 main {
@@ -64,14 +101,4 @@ footer {
   margin-top: auto;
   padding: 1rem;
   background-color: #e0e0e0;
-}
-
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  }
-
-  header h1 {
-    font-size: 2rem;
-  }
 }
