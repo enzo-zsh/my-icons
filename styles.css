@@ -62,7 +62,7 @@ header button:hover {
 }
 
 .icon-card {
-  width: 180px; /* Augmentation de la taille des cartes */
+  width: 150px; /* Taille compacte des cartes */
   padding: 1rem;
   background-color: white;
   border-radius: 10px;
@@ -72,13 +72,13 @@ header button:hover {
 }
 
 .icon-card h3 {
-  font-size: 1rem; /* Réduction de la taille du titre */
+  font-size: 1.1rem;
   color: black; /* Le titre reste noir même en dark mode */
 }
 
 .icon-card img {
-  width: 90px;
-  height: 90px;
+  width: 100px; /* Augmenter la taille des icônes */
+  height: 100px;
   object-fit: contain;
   margin-bottom: 1rem;
 }
@@ -86,13 +86,13 @@ header button:hover {
 .icon-card a {
   display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.3rem 0.8rem;
+  padding: 0.4rem 1rem;
   background-color: var(--blue-apple);
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.9rem; /* Taille légèrement réduite du bouton */
+  font-size: 1rem;
   transition: background-color 0.3s;
 }
 
@@ -107,16 +107,17 @@ header button:hover {
 main {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 cartes par ligne */
-  gap: 1rem; /* Augmentation de l'espace entre les cartes */
-  padding: 1rem;
-  width: 95%; /* Ajustement de la largeur du contenu principal */
-  margin: auto;
+  gap: 1rem;
+  width: 100%; /* Étendre la largeur de la grille à 100% */
+  max-width: 1200px; /* Limiter la largeur totale */
+  margin: 0 auto; /* Centrer la grille */
+  margin-bottom: 2rem; /* Ajoute un espace entre les cartes et le footer */
 }
 
 footer {
   text-align: center;
   margin-top: auto;
-  padding: 1rem;
+  padding: 1rem; /* Augmente le padding pour ajouter de l'espace */
   background-color: #e0e0e0;
   color: black; /* Le footer reste noir */
 }

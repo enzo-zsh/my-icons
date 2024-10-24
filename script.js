@@ -8,8 +8,11 @@ async function loadIcons() {
       throw new Error('Erreur de chargement des icônes');
     }
     const icons = await response.json();
-    allIcons = icons;
-    displayIcons(icons);
+    
+    // Trier les icônes par ordre alphabétique selon le nom
+    allIcons = icons.sort((a, b) => a.name.localeCompare(b.name));
+    
+    displayIcons(allIcons);
   } catch (error) {
     console.error('Erreur lors du chargement des icônes :', error);
   }

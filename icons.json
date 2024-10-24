@@ -5,43 +5,88 @@
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Adobe Express",
+      "image": "assets/icons/adobe/express/adobe-express.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "BitView",
+      "image": "assets/icons/bitview/bitview.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Android File Transfer",
+      "image": "assets/icons/android-file-transfer/aft.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Apple Support",
+      "image": "assets/icons/apple-support/apple-support.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Apple Pay Merchant",
+      "image": "assets/icons/applepay-merchant/applepaymerchantsupplies.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Arc (Blue)",
+      "image": "assets/icons/Arc-Browser/arc-blue.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Arc (Grey)",
+      "image": "assets/icons/Arc-Browser/arc-grey.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     },
     {
-      "name": "3D Pinball",
-      "image": "assets/png/3d-pinball/3d-pinball.png",
+      "name": "Arc (White)",
+      "image": "assets/icons/Arc-Browser/arc-white.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Back That Mac Up",
+      "image": "assets/icons/backthatmacup/backthatmacup.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Calibre",
+      "image": "assets/icons/calibre/Calibre.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Canon IJ Scanner Lite",
+      "image": "assets/icons/canon-ij-scanner-lite/canonscnaijlite.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Cheetah VM",
+      "image": "assets/icons/cheetahVM/cheetah.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "CleanMe (Blue)",
+      "image": "assets/icons/cleanMe/cleanme-blue.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "CleanMe (Pink)",
+      "image": "assets/icons/cleanMe/cleanme-pink.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Cmd",
+      "image": "assets/icons/cmd/cmd.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Darktable",
+      "image": "assets/icons/darktable/darktable.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Duck.ai",
+      "image": "assets/icons/ddg-ai-chat/ddg-ai-chat.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     }
   ]
