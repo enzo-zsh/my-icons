@@ -62,7 +62,7 @@ header button:hover {
 }
 
 .icon-card {
-  width: 150px; /* Taille compacte des cartes */
+  width: 180px; /* Augmentation de la taille des cartes */
   padding: 1rem;
   background-color: white;
   border-radius: 10px;
@@ -72,13 +72,13 @@ header button:hover {
 }
 
 .icon-card h3 {
-  font-size: 1.1rem;
+  font-size: 1rem; /* Réduction de la taille du titre */
   color: black; /* Le titre reste noir même en dark mode */
 }
 
 .icon-card img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   margin-bottom: 1rem;
 }
@@ -86,13 +86,13 @@ header button:hover {
 .icon-card a {
   display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 0.8rem;
   background-color: var(--blue-apple);
   color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem; /* Taille légèrement réduite du bouton */
   transition: background-color 0.3s;
 }
 
@@ -107,9 +107,9 @@ header button:hover {
 main {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 cartes par ligne */
-  gap: 0.5rem; /* Réduction de l'espace entre les cartes */
+  gap: 1rem; /* Augmentation de l'espace entre les cartes */
   padding: 1rem;
-  width: 90%;
+  width: 95%; /* Ajustement de la largeur du contenu principal */
   margin: auto;
 }
 
