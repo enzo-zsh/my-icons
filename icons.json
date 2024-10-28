@@ -188,5 +188,45 @@
       "name": ".Mac",
       "image": "assets/icons/mac.com/dotmac.png",
       "download": "assets/icons/mac.com/dotmac.icns"
+    },
+    {
+      "name": "MacApps.link",
+      "image": "assets/icons/macappslink/macappslink.png",
+      "download": "assets/icons/macappslink/macappslink.icns"
+    },
+    {
+      "name": "Macintosh.js",
+      "image": "assets/icons/macintoshjs/macintoshjs.png",
+      "download": "assets/icons/macintoshjs/macintoshjs.icns"
+    },
+    {
+      "name": "Mail",
+      "image": "assets/icons/mail/mail-1.png",
+      "download": "assets/icons/mail/mail-1.icns"
+    },
+    {
+      "name": "Mail",
+      "image": "assets/icons/mail/mail-real.png",
+      "download": "assets/icons/mail/mail-real.icns"
+    },
+    {
+      "name": "Mistral AI",
+      "image": "assets/icons/mistral-ai/mistral-ai.png",
+      "download": "assets/icons/mistral-ai/mistral-ai.icns"
+    },
+    {
+      "name": "MkChromecast White",
+      "image": "assets/icons/mkchromecats/mkchromecast-white.png",
+      "download": "assets/icons/mkchromecats/mkchromecast-white.icns"
+    },
+    {
+      "name": "MkChromecast Dark",
+      "image": "assets/icons/mkchromecats/mkchromecast-dark.png",
+      "download": "assets/icons/mkchromecats/mkchromecast-dark.icns"
+    },
+    {
+      "name": "Movie Maker",
+      "image": "assets/icons/movie-maker/movie-maker.png",
+      "download": "aassets/icons/movie-maker/movie-maker.icns"
     }
   ]
