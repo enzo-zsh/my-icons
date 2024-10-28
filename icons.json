@@ -91,12 +91,42 @@
     },
     {
       "name": "Final Cut Express",
-      "image": "assets/icons/Final Cut Express/finalcutexpress.png",
-      "download": "assets/icons/Final Cut Express/finalcutexpress.icns"
+      "image": "assets/icons/Final-Cut-Express/finalcutexpress.png",
+      "download": "assets/icons/Final-Cut-Express/finalcutexpress.icns"
     },
     {
-      "name": "Firefox (ArcticFox)",
-      "image": "assets/icons/Firefox - Articfox/arcticfox.png",
-      "download": "assets/icons/Firefox - Articfox/arcticfox.icns"
+      "name": "Gimp (1)",
+      "image": "assets/icons/gimp/gimp-1.png",
+      "download": "assets/icons/gimp/gimp-1.icns"
+    },
+    {
+      "name": "Gimp (2)",
+      "image": "assets/icons/gimp/gimp-2.png",
+      "download": "assets/icons/gimp/gimp-2.icns"
+    },
+    {
+      "name": "GNUmerics",
+      "image": "assets/icons/gnumerics/gnumerics.png",
+      "download": "assets/icons/gnumerics/gnumerics.icns"
+    },
+    {
+      "name": "Google Chat",
+      "image": "assets/icons/google-chat/googlechat.png",
+      "download": "assets/icons/google-chat/googlechat.icns"
+    },
+    {
+      "name": "Google Meet",
+      "image": "assets/icons/google-meet/google-meet.png",
+      "download": "assets/icons/google-meet/google-meet.icns"
+    },
+    {
+      "name": "Google Vids",
+      "image": "assets/icons/googlevids/google-vids.png",
+      "download": "assets/icons/googlevids/google-vids.icns"
+    },
+    {
+      "name": "gPodder",
+      "image": "assets/icons/gpodder/gpodder.png",
+      "download": "assets/icons/gpodder/gpodder.icns"
     }
   ]
