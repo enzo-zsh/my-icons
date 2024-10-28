@@ -2,7 +2,7 @@
     {
       "name": "3D Pinball",
       "image": "assets/icons/3d-pinball/3d-pinball.png",
-      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+      "download": "assets/icons/3d-pinball/3d-pinball.icns"
     },
     {
       "name": "Adobe Express",
@@ -87,6 +87,16 @@
     {
       "name": "Duck.ai",
       "image": "assets/icons/ddg-ai-chat/ddg-ai-chat.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Final Cut Express",
+      "image": "assets/icons/Final Cut Express/finalcutexpress.png",
+      "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
+    },
+    {
+      "name": "Firefox (ArcticFox)",
+      "image": "assets/icons/Firefox - Articfox/arcticfox.png",
       "download": "https://github.com/enzo-zsh/my-icons/raw/refs/heads/main/assets/icns/3d-pinball/3d-pinball.icns?raw=true"
     }
   ]
