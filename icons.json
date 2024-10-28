@@ -128,5 +128,65 @@
       "name": "gPodder",
       "image": "assets/icons/gpodder/gpodder.png",
       "download": "assets/icons/gpodder/gpodder.icns"
+    },
+    {
+      "name": "iMovie",
+      "image": "assets/icons/iMovie/imovie.png",
+      "download": "assets/icons/iMovie/imovie.icns"
+    },
+    {
+      "name": "Install Disk Creator",
+      "image": "assets/icons/install-disk-creator/idc.png",
+      "download": "assets/icons/install-disk-creator/idc.icns"
+    },
+    {
+      "name": "IPTVnator",
+      "image": "assets/icons/iptvnator/iptvnator.png",
+      "download": "assets/icons/iptvnator/iptvnator.icns"
+    },
+    {
+      "name": "IRC",
+      "image": "assets/icons/IRC/iirc.png",
+      "download": "assets/icons/IRC/iirc.icns"
+    },
+    {
+      "name": "iWeb",
+      "image": "assets/icons/iweb/iweb.png",
+      "download": "assets/icons/iweb/iweb.icns"
+    },
+    {
+      "name": "KdenLive",
+      "image": "assets/icons/kdenlive/kdenlive.png",
+      "download": "assets/icons/kdenlive/kdenlive.icns"
+    },
+    {
+      "name": "Leboncoin",
+      "image": "assets/icons/leboncoin/leboncoin.png",
+      "download": "assets/icons/leboncoin/leboncoin.icns"
+    },
+    {
+      "name": "Mac.com (1)",
+      "image": "assets/icons/mac.com/maccom.png",
+      "download": "assets/icons/mac.com/maccom.icns"
+    },
+    {
+      "name": "Mac.com (2)",
+      "image": "assets/icons/mac.com/maccom2.png",
+      "download": "assets/icons/mac.com/maccom2.icns"
+    },
+    {
+      "name": "MobileMe",
+      "image": "assets/icons/mac.com/MobileMe.png",
+      "download": "assets/icons/mac.com/MobileMe.icns"
+    },
+    {
+      "name": "MobileMe Blue",
+      "image": "assets/icons/mac.com/MobileMeBlue.png",
+      "download": "assets/icons/mac.com/MobileMeBlue.icns"
+    },
+    {
+      "name": ".Mac",
+      "image": "assets/icons/mac.com/dotmac.png",
+      "download": "assets/icons/mac.com/dotmac.icns"
     }
   ]
