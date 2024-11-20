@@ -227,6 +227,66 @@
     {
       "name": "Movie Maker",
       "image": "assets/icons/movie-maker/movie-maker.png",
-      "download": "aassets/icons/movie-maker/movie-maker.icns"
+      "download": "assets/icons/movie-maker/movie-maker.icns"
+    },
+    {
+      "name": "Overcast",
+      "image": "assets/icons/overcast/overcast.png",
+      "download": "assets/icons/overcast/overcast.icns"
+    },
+    {
+      "name": "NAPS2",
+      "image": "assets/icons/naps2/naps2.png",
+      "download": "assets/icons/naps.icns"
+    },
+    {
+      "name": "Notepad Next (Green)",
+      "image": "assets/icons/notepadnext/notepadnext-green.png",
+      "download": "assets/icons/notepadnext/notepadnext-green.png"
+    },
+    {
+      "name": "Notepad Next (White)",
+      "image": "assets/icons/notepadnext/notepadnext-white.png",
+      "download": "assets/icons/notepadnext/notepadnext-white.png"
+    },
+    {
+      "name": "OpenShot",
+      "image": "assets/icons/openshot/openshot.png",
+      "download": "assets/icons/openshot/openshot.icns"
+    },
+    {
+      "name": "OpenShot (FinalCut style)",
+      "image": "assets/icons/openshot/openshot-finalcut.png",
+      "download": "assets/icons/openshot/openshot-finalcut.icns"
+    },
+    {
+      "name": "Parallel Launcher",
+      "image": "assets/icons/parallel-launcher/parallel-launcher.png",
+      "download": "assets/icons/parallel-launcher/parallel-launcher.icns"
+    },
+    {
+      "name": "Photofiltre",
+      "image": "assets/icons/photofiltre/photofiltre.png",
+      "download": "assets/icons/photofiltre/photofiltre.icns"
+    },
+    {
+      "name": "Photofiltre Studio",
+      "image": "assets/icons/photofiltre-studio/photofiltre-studio.png",
+      "download": "assets/icons/photofiltre-studio/photofiltre-studio.icns"
+    },
+    {
+      "name": "Pi AI (White)",
+      "image": "assets/icons/pi-ai/White/pi-ai.png",
+      "download": "assets/icons/pi-ai/White/pi-ai.icns"
+    },
+    {
+      "name": "Pi AI (Green)",
+      "image": "assets/icons/pi-ai/Green/pi-ai-green.png",
+      "download": "assets/icons/pi-ai/Green/pi-ai-green.icns"
+    },
+    {
+      "name": "Pinta",
+      "image": "assets/icons/pinta/pinta.png",
+      "download": "assets/icons/pinta/pinta.icns"
     }
   ]
