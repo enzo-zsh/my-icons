@@ -288,5 +288,65 @@
       "name": "Pinta",
       "image": "assets/icons/pinta/pinta.png",
       "download": "assets/icons/pinta/pinta.icns"
+    },
+    {
+      "name": "Pitivi",
+      "image": "assets/icons/pitivi/pitivi.png",
+      "download": "assets/icons/pitivi/pitivi.icns"
+    },
+    {
+      "name": "PKG Uninstaller",
+      "image": "assets/icons/pkg-uninstaller/pkguninstaller.png",
+      "download": "assets/icons/pkg-uninstaller/pkguninstaller.icns"
+    },
+    {
+      "name": "Pluto TV (Black)",
+      "image": "assets/icons/plutotv/plutotv.png",
+      "download": "assets/icons/pluto tv/plutotv.icns"
+    },
+    {
+      "name": "Pluto TV (Grey)",
+      "image": "assets/icons/plutotv/plutotv-grey.png",
+      "download": "assets/icons/pluto tv/plutotv-grey.icns"
+    },
+    {
+      "name": "PPC AppStore",
+      "image": "assets/icons/PPCAppStore/PPCAppStore-icon.png",
+      "download": "assets/icons/PPCAppStore/PPCAppStore-icon.icns"
+    },
+    {
+      "name": "PPC Store",
+      "image": "assets/icons/ppcstore/ppcstore-mac.png",
+      "download": "assets/icons/ppcstore/ppcstore-mac.icns"
+    },
+    {
+      "name": "Prefs Editor",
+      "image": "assets/icons/prefs-editor/prefs-editor.png",
+      "download": "assets/icons/prefs-editor/prefs-editor.icns"
+    },
+    {
+      "name": "Proton Mail",
+      "image": "assets/icons/Protonsuite/protonmail.png",
+      "download": "assets/icons/Protonsuite/protonmail.icns"
+    },
+    {
+      "name": "Proton Calendar",
+      "image": "assets/icons/Protonsuite/protoncalendar.png",
+      "download": "assets/icons/Protonsuite/protoncalendar.icns"
+    },
+    {
+      "name": "Proton Drive",
+      "image": "assets/icons/Protonsuite/protondrive.png",
+      "download": "assets/icons/Protonsuite/protondrive.icns"
+    },
+    {
+      "name": "Proton Pass",
+      "image": "assets/icons/Protonsuite/protonpass.png",
+      "download": "assets/icons/Protonsuite/protonpass.icns"
+    },
+    {
+      "name": "Proton VPN",
+      "image": "assets/icons/Protonsuite/protonvpn.png",
+      "download": "assets/icons/Protonsuite/protonvpn.icns"
     }
   ]
