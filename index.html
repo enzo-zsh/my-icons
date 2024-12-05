@@ -1,26 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>@enzo-zsh - macOS Icons Library</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@enzo_zsh - macOS icons</title>
+    <style>
+        :root {
+            --background: #fff;
+            --text: #1d1d1f;
+            --subtitle: #6e6e73;
+            --card-bg: #fff;
+            --card-shadow: rgba(0, 0, 0, 0.1);
+            --nav-bg: rgba(255, 255, 255, 0.8);
+            --border: #e5e5e5;
+            --search-bg: #f5f5f7;
+        }
+
+        [data-theme="dark"] {
+            --background: #000;
+            --text: #f5f5f7;
+            --subtitle: #86868b;
+            --card-bg: #1c1c1e;
+            --card-shadow: rgba(255, 255, 255, 0.1);
+            --nav-bg: rgba(0, 0, 0, 0.8);
+            --border: #2c2c2e;
+            --search-bg: #1c1c1e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", sans-serif;
+        }
+
+        body {
+            background-color: var(--background);
+            transition: background-color 0.3s;
+        }
+
+        nav {
+            background-color: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: fixed;
+            width: 100%;
+            padding: 1rem 2rem;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 51px;
+            height: 31px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #e4e4e4;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 27px;
+            width: 27px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        input:checked + .slider {
+            background-color: #34c759;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+
+        .search-container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 2rem 0;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 10px;
+            background-color: var(--search-bg);
+            color: var(--text);
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(0, 125, 250, 0.6);
+        }
+
+        main {
+            padding-top: 5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem 2rem;
+            background: linear-gradient(180deg, var(--background) 0%, var(--background) 100%);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.75rem;
+            color: var(--subtitle);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .icon-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 24px var(--card-shadow);
+        }
+
+        .icon-img {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .icon-card:hover .icon-img {
+            transform: scale(1.1);
+        }
+
+        .icon-name {
+            font-size: 1.2rem;
+            color: var(--text);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .download-btn {
+            background-color: #0071e3;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 980px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .download-btn:hover {
+            background-color: #0077ED;
+            transform: scale(1.05);
+        }
+
+        .no-results {
+            text-align: center;
+            color: var(--text);
+            font-size: 1.2rem;
+            padding: 2rem;
+            grid-column: 1 / -1;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--subtitle);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+            transition: color 0.3s;
+        }
+    </style>
+    </style>
 </head>
 <body>
-  <header>
-    <h1>@enzo-zsh - macOS Icons Library</h1>
-    <p>Discover, Download, and Customize.</p>
-    <input type="text" id="search-input" placeholder="Search icons..." />
-    <button id="theme-toggle">🌙 Dark Mode</button>
-  </header>
+    <nav>
+        <div class="logo">@enzo-zsh - macOS Icons Library</div>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </nav>
 
-  <main id="icon-gallery"></main>
+    <main>
+        <section class="hero">
+            <h1>@enzo-zsh - macOS Icons Library</h1>
+            <p class="subtitle">A beautiful icons collection<br>made by enzo_zsh.</p>
+        </section>
 
-  <footer>
-    <p>&copy; 2024 - Think Different</p>
-    <p>Made with ♥️ by @enzo-zsh</p>
-  </footer>
+        <div class="search-container">
+            <input type="text" id="search" class="search-input" placeholder="Search an icon..." />
+        </div>
 
-  <script src="script.js"></script>
+        <div class="grid" id="icons-grid"></div>
+    </main>
+    <footer class="footer">
+        © 2024 macOS Icons Library by @enzo_zsh • All rights reserved.
+    </footer>
+
+    <script>
+        const iconsList = [
+            // Les données JSON seront chargées ici
+        ];
+
+        // Trier les icônes par ordre alphabétique
+        iconsList.sort((a, b) => a.name.localeCompare(b.name));
+
+        const grid = document.getElementById('icons-grid');
+        const searchInput = document.getElementById('search');
+        const themeToggle = document.getElementById('theme-toggle');
+
+        function displayIcons(icons) {
+            grid.innerHTML = '';
+            
+            if (icons.length === 0) {
+                grid.innerHTML = '<div class="no-results">Aucune icône trouvée</div>';
+                return;
+            }
+
+            icons.forEach(icon => {
+                const card = document.createElement('div');
+                card.className = 'icon-card';
+                card.innerHTML = `
+                    <img src="${icon.image}" alt="${icon.name}" class="icon-img">
+                    <h3 class="icon-name">${icon.name}</h3>
+                    <a href="${icon.download}" class="download-btn" download>Download</a>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterIcons(searchTerm) {
+            const filtered = iconsList.filter(icon =>
+                icon.name.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            displayIcons(filtered);
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            filterIcons(e.target.value);
+        });
+
+        themeToggle.addEventListener('change', () => {
+            if (themeToggle.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        });
+
+        // Charger et afficher les icônes au démarrage
+        fetch('icons.json')
+            .then(response => response.json())
+            .then(data => {
+                iconsList.push(...data.sort((a, b) => a.name.localeCompare(b.name)));
+                displayIcons(iconsList);
+            })
+            .catch(error => console.error('Erreur lors du chargement des icônes:', error));
+    </script>
 </body>
 </html>
