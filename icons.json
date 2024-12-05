@@ -343,5 +343,20 @@
       "name": "Proton VPN",
       "image": "assets/icons/Protonsuite/protonvpn.png",
       "download": "assets/icons/Protonsuite/protonvpn.icns"
+    },
+    {
+      "name": "RawTherapee",
+      "image": "assets/icons/RawTherapee/rawtherapee.png",
+      "download": "assets/icons/RawTherapee/rawtherapee.icns"
+    },
+    {
+      "name": "RedQuits",
+      "image": "assets/icons/redquits/redquits.png",
+      "download": "assets/icons/redquits/redquits.icns"
+    },
+    {
+      "name": "Rocketchat",
+      "image": "assets/icons/rocketchat/rocketchat.png",
+      "download": "assets/icons/rocketchat/rocketchat.icns"
     }
   ]
