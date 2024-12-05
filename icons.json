@@ -242,12 +242,12 @@
     {
       "name": "Notepad Next (Green)",
       "image": "assets/icons/notepadnext/notepadnext-green.png",
-      "download": "assets/icons/notepadnext/notepadnext-green.png"
+      "download": "assets/icons/notepadnext/notepadnext-green.icns"
     },
     {
       "name": "Notepad Next (White)",
       "image": "assets/icons/notepadnext/notepadnext-white.png",
-      "download": "assets/icons/notepadnext/notepadnext-white.png"
+      "download": "assets/icons/notepadnext/notepadnext-white.icns"
     },
     {
       "name": "OpenShot",
