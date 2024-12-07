@@ -358,5 +358,15 @@
       "name": "Rocketchat",
       "image": "assets/icons/rocketchat/rocketchat.png",
       "download": "assets/icons/rocketchat/rocketchat.icns"
+    },
+    {
+      "name": "Network Utility",
+      "image": "assets/icons/network-utility/network-utility.png",
+      "download": "assets/icons/network-utility/network-utility.icns"
+    },
+    {
+      "name": "Network Utility (Old)",
+      "image": "assets/icons/network-utility/network-utility-old.png",
+      "download": "assets/icons/network-utility/network-utility-old.icns"
     }
   ]
