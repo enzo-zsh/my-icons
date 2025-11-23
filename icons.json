@@ -1,4 +1,4 @@
-  [
+[
     {
       "name": "3D Pinball",
       "image": "assets/icons/3d-pinball/3d-pinball.png",
@@ -368,5 +368,67 @@
       "name": "Network Utility (Old)",
       "image": "assets/icons/network-utility/network-utility-old.png",
       "download": "assets/icons/network-utility/network-utility-old.icns"
+    },
+    {
+      "name": "Shuriken AppStore",
+      "image": "assets/icons/shuriken-appstore/shuriken-appstore.png",
+      "download": "assets/icons/shuriken-appstore/shuriken-appstore.icns"
+    },
+    {
+      "name": "Silenknight",
+      "image": "assets/icons/silentknight/silentknight.png",
+      "download": "assets/icons/silentknight/silentknight.icns"
+    },
+    {
+      "name": "Smash",
+      "image": "assets/icons/smash/smash.png",
+      "download": "assets/icons/smash/smash.icns"
+    },
+    {
+      "name": "Sorbet AppStore",
+      "image": "assets/icons/sorbet-appstore/sorbet-appstore.png",
+      "download": "assets/icons/sorbet-appstore/sorbet-appstore.icns"
+    },
+    {
+      "name": "Spotube",
+      "image": "assets/icons/spotube/spotube.png",
+      "download": "assets/icons/spotube/spotube.icns"
+    },
+    {
+      "name": "StackEdit",
+      "image": "assets/icons/stackedit/stackedit.png",
+      "download": "assets/icons/stackedit/stackedit.icns"
+    },
+    {
+      "name": "Suno",
+      "image": "assets/icons/suno/suno.png",
+      "download": "assets/icons/suno/suno.icns"
+    },
+    {
+      "name": "Tempbox",
+      "image": "assets/icons/tempbox/tempbox.png",
+      "download": "assets/icons/tempbox/tempbox.icns"
+    },
+    {
+      "name": "Terminal",
+      "image": "assets/icons/terminal/terminal.png",
+      "download": "assets/icons/terminal/terminal.icns"
+    },
+    {
+      "name": "TMPDisk",
+      "image": "assets/icons/tmp-disk/tmpdisk.png",
+      "download": "assets/icons/tmp-disk/tmpdisk.icns"
+    },
+    {
+      "name": "TMPDisk (Steve Jobs)",
+      "image": "assets/icons/tmp-disk/steve-jobs/tmpdisk-stevejobs.png",
+      "download": "assets/icons/tmp-disk/steve-jobs/tmpdisk-stevejobs.icns",
+      "tags": ["liquidglass"]
+    },
+        {
+      "name": "Tunnelblick",
+      "image": "assets/icons/tunnelblick/tunnelblick.png",
+      "download": "assets/icons/tunnelblick/tunnelblick.icns"
     }
+
   ]

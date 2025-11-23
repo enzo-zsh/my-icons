@@ -112,6 +112,29 @@
             position: relative;
         }
 
+        .filter-container {
+            max-width: 680px;
+            margin: 0 auto 2rem;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-checkbox {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
+
+        .filter-label {
+            font-size: 1rem;
+            color: var(--text);
+            cursor: pointer;
+            user-select: none;
+        }
+
         .search-input {
             width: 100%;
             padding: 12px 20px;
@@ -232,7 +255,6 @@
             transition: color 0.3s;
         }
     </style>
-    </style>
 </head>
 <body>
     <nav>
@@ -253,10 +275,15 @@
             <input type="text" id="search" class="search-input" placeholder="Search an icon..." />
         </div>
 
+        <div class="filter-container">
+            <input type="checkbox" id="liquid-glass-filter" class="filter-checkbox">
+            <label for="liquid-glass-filter" class="filter-label">Liquid Glass</label>
+        </div>
+
         <div class="grid" id="icons-grid"></div>
     </main>
     <footer class="footer">
-        © 2024 macOS Icons Library by @enzo_zsh • All rights reserved.
+        © 2025 macOS Icons Library by @enzo_zsh • All rights reserved.
     </footer>
 
     <script>
@@ -270,12 +297,13 @@
         const grid = document.getElementById('icons-grid');
         const searchInput = document.getElementById('search');
         const themeToggle = document.getElementById('theme-toggle');
+        const liquidGlassFilter = document.getElementById('liquid-glass-filter');
 
         function displayIcons(icons) {
             grid.innerHTML = '';
             
             if (icons.length === 0) {
-                grid.innerHTML = '<div class="no-results">Aucune icône trouvée</div>';
+                grid.innerHTML = '<div class="no-results">No icons found</div>';
                 return;
             }
 
@@ -292,15 +320,28 @@
         }
 
         function filterIcons(searchTerm) {
-            const filtered = iconsList.filter(icon =>
+            let filtered = iconsList.filter(icon =>
                 icon.name.toLowerCase().includes(searchTerm.toLowerCase())
             );
+
+            if (liquidGlassFilter.checked) {
+                filtered = filtered.filter(icon =>
+                    icon.tags && icon.tags.includes('liquidglass')
+                );
+            }
+
             displayIcons(filtered);
         }
 
         searchInput.addEventListener('input', (e) => {
             filterIcons(e.target.value);
         });
+
+        liquidGlassFilter.addEventListener('change', () => {
+            filterIcons(searchInput.value);
+        });
+
+        // tag dans le json :  "tags": ["liquidglass"]
 
         themeToggle.addEventListener('change', () => {
             if (themeToggle.checked) {
