@@ -425,10 +425,59 @@
       "download": "assets/icons/tmp-disk/steve-jobs/tmpdisk-stevejobs.icns",
       "tags": ["liquidglass"]
     },
-        {
+    {
       "name": "Tunnelblick",
       "image": "assets/icons/tunnelblick/tunnelblick.png",
       "download": "assets/icons/tunnelblick/tunnelblick.icns"
+    },
+    {
+      "name": "umbrelOS",
+      "image": "assets/icons/umbrelos/umbrelos.png",
+      "download": "assets/icons/umbrelos/umbrelos.icns"
+    },
+    {
+      "name": "VirtualBox",
+      "image": "assets/icons/virtualbox/dark-bleu-box/vbox.png",
+      "download": "assets/icons/virtualbox/dark-bleu-box/vbox.icns"
+    },
+    {
+      "name": "VirtualBox",
+      "image": "assets/icons/virtualbox/dark-blue/vbox-blue.png",
+      "download": "assets/icons/virtualbox/dark-blue/vbox-blue.icns"
+    },
+    {
+      "name": "VirtualBox",
+      "image": "assets/icons/virtualbox/light-blue-box/vm-box.png",
+      "download": "assets/icons/virtualbox/light-blue-box/vm-box.icns"
+    },
+    {
+      "name": "VirtualBox",
+      "image": "assets/icons/virtualbox/light-blue/virtualbox-light-blue.png",
+      "download": "assets/icons/virtualbox/light-blue/virtualbox-light-blue.icns"
+    },
+    {
+      "name": "WebSDR",
+      "image": "assets/icons/websdr/websdr.png",
+      "download": "assets/icons/websdr/websdr.icns"
+    },
+    {
+      "name": "Whisky (Win95)",
+      "image": "assets/icons/whisky/whisky-win95.png",
+      "download": "assets/icons/whisky/whisky-win95.icns"
+    },
+    {
+      "name": "Whisky (Win11)",
+      "image": "assets/icons/whisky/whisky-win11.png",
+      "download": "assets/icons/whisky/whisky-win11.icns"
+    },
+    {
+      "name": "Whisky (BSoD)",
+      "image": "assets/icons/whisky/whisky-bsod.png",
+      "download": "assets/icons/whisky/whisky-bsod.icns"
+    },
+        {
+      "name": "Windy",
+      "image": "assets/icons/windy/windy.png",
+      "download": "assets/icons/windy/windy.icns"
     }
-
   ]
