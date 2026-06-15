@@ -395,9 +395,9 @@
       "download": "assets/icons/spotube/spotube.icns"
     },
     {
-      "name": "StackEdit",
-      "image": "assets/icons/stackedit/stackedit.png",
-      "download": "assets/icons/stackedit/stackedit.icns"
+      "name": "Stackedit",
+      "image": "assets/icons/stackedit/stackEdit.png",
+      "download": "assets/icons/stackedit/stackEdit.icns"
     },
     {
       "name": "Suno",
@@ -432,8 +432,8 @@
     },
     {
       "name": "umbrelOS",
-      "image": "assets/icons/umbrelos/umbrelos.png",
-      "download": "assets/icons/umbrelos/umbrelos.icns"
+      "image": "assets/icons/umbrelOS/umbrelOS.png",
+      "download": "assets/icons/umbrelOS/umbrelOS.icns"
     },
     {
       "name": "VirtualBox",
