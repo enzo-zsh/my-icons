@@ -396,8 +396,8 @@
     },
     {
       "name": "Stackedit",
-      "image": "assets/icons/stackedit/stackEdit.png",
-      "download": "assets/icons/stackedit/stackEdit.icns"
+      "image": "assets/icons/stackedit/StackEdit.png",
+      "download": "assets/icons/stackedit/StackEdit.icns"
     },
     {
       "name": "Suno",
@@ -475,9 +475,35 @@
       "image": "assets/icons/whisky/whisky-bsod.png",
       "download": "assets/icons/whisky/whisky-bsod.icns"
     },
-        {
+    {
       "name": "Windy",
       "image": "assets/icons/windy/windy.png",
       "download": "assets/icons/windy/windy.icns"
+    },
+    {
+      "name": "Wireshark",
+      "image": "assets/icons/wireshark/wireshark.png",
+      "download": "assets/icons/wireshark/wireshark.icns"
+    },
+    {
+      "name": "Wormhole",
+      "image": "assets/icons/wormhole/wormhole.png",
+      "download": "assets/icons/wormhole/wormhole.icns"
+    },
+    {
+      "name": "XQuartz",
+      "image": "assets/icons/x-quartz/x-quartz.png",
+      "download": "assets/icons/x-quartz/x-quartz.icns"
+    },
+    {
+      "name": "youDJ",
+      "image": "assets/icons/youDJ/youDJ.png",
+      "download": "assets/icons/youDJ/youDJ.icns"
+    },
+    {
+      "name": "Zelda Roth SE",
+      "image": "assets/icons/zelda-roth-se/zelda-roth-se.png",
+      "download": "assets/icons/zelda-roth-se/zelda-roth-se.icns"
     }
+
   ]
