@@ -30,6 +30,12 @@
       "download": "assets/icons/applepay-merchant/applepaymerchant.icns"
     },
     {
+      "name": "Apple Container",
+      "image": "assets/icons/apple-container/container.png",
+      "download": "assets/icons/apple-container/container.icns",
+      "tags": ["liquidglass"]
+    },
+    {
       "name": "Arc (Blue)",
       "image": "assets/icons/Arc-Browser/arc-blue.png",
       "download": "assets/icons/Arc-Browser/arc-blue.icns"
@@ -93,6 +99,11 @@
       "name": "Final Cut Express",
       "image": "assets/icons/Final-Cut-Express/finalcutexpress.png",
       "download": "assets/icons/Final-Cut-Express/finalcutexpress.icns"
+    },
+    {
+      "name": "Final Cut Pro (Express inspired)",
+      "image": "assets/icons/Final-Cut-Express/finalcutexpress-fcpro/final-cut-express-finalcut.png",
+      "download": "assets/icons/Final-Cut-Express/finalcutexpress-fcpro/final-cut-express-finalcut.icns"
     },
     {
       "name": "Gimp (1)",
@@ -413,6 +424,12 @@
       "name": "Terminal",
       "image": "assets/icons/terminal/terminal.png",
       "download": "assets/icons/terminal/terminal.icns"
+    },
+    {
+      "name": "TimeCapsuleSMB",
+      "image": "assets/icons/timecapsulesmb/timecapsulesmb.png",
+      "download": "assets/icons/timecapsulesmb/timecapsulesmb.icns",
+      "tags": ["liquidglass"]
     },
     {
       "name": "TMPDisk",
